@@ -1,4 +1,5 @@
 from flask import Flask
+
 from ..routers.calculators import calc_route_bp
 
 app = Flask(__name__)
